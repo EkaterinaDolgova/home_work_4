@@ -43,54 +43,37 @@ public class Main {
         boolean distanceThreeDay = deliveryDistance > 60;
         int day = 1;
         if (distanceOneDay) {
-            System.out.println("Потребуется дней: " + day);
         }
         if (distanceTwoDay) {
-            day = 2;
-            System.out.println("Потребуется дней: " + day);
+            day ++;
         }
         if (distanceThreeDay) {
-            day = 3;
-            System.out.println("Потребуется дней: " + day);
+            day ++;
+            ++day;
         }
+        System.out.println("Потребуется дней: " + day);
         //Задача №5
         int monthNumber = 12;
         switch (monthNumber) {
+            case 12:
             case 1:
-                System.out.println("Сезон зима");
-                break;
             case 2:
                 System.out.println("Сезон зима");
                 break;
             case 3:
-                System.out.println("Сезон весна");
-                break;
             case 4:
-                System.out.println("Сезон весна");
-                break;
             case 5:
                 System.out.println("Сезон весна");
                 break;
             case 6:
-                System.out.println("Сезон лето");
-                break;
             case 7:
-                System.out.println("Сезон лето");
-                break;
             case 8:
                 System.out.println("Сезон лето");
                 break;
             case 9:
-                System.out.println("Сезон осень");
-                break;
             case 10:
-                System.out.println("Сезон осень");
-                break;
             case 11:
                 System.out.println("Сезон осень");
-                break;
-            case 12:
-                System.out.println("Сезон зима");
                 break;
             default:
                 System.out.println("Номер месяца больше 13");
