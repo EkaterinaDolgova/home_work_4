@@ -36,7 +36,7 @@ public class Main {
         } else {
             System.out.println(year1 + " год не является високосным");
         }
-        //Задача №4
+        //Задача №
         int deliveryDistance = 95;
         boolean distanceOneDay = deliveryDistance < 20;
         boolean distanceTwoDay = (deliveryDistance >= 20 && deliveryDistance <= 60);
